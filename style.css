@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #253237;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+
+.text-area {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.output {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;;
+}
+
+#shift {
+    margin: 0 1rem 0;
+    height: 1.2rem;
+}

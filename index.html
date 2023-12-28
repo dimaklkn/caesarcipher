@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar's cipher</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Caesar cipher</h1>
+    </header>
+    <div class="text-area">
+        <textarea id="text" rows="10" cols="80" placeholder="Write something here..." ></textarea>
+    </div>
+    <div class="keys">
+        <p>Enter your cipher shift:</p>
+        <input type="number" id="shift" min="0" max="26" value="13"/>
+        <p>Check if you want to decrypt:</p>
+        <input type="checkbox" id="decrypt"/>
+    </div>
+    
+    <div class="output">
+
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
